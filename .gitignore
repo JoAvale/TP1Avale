@@ -1,0 +1,5 @@
+ignoring files.
+# Configurar git localmente para que 
+#ignore la carpeta “mysqldata” 
+# y no replique los datos
+mysqldata/*
