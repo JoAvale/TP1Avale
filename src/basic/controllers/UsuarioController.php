@@ -124,7 +124,7 @@ class UsuarioController extends Controller
      */
     protected function findModel($ID)
     {
-        if (($model = Usuario::findOne($ID)) !== null) {
+        if (($model = Usuario::findOne($id)) !== null) {
             return $model;
         }
 
